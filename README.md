@@ -8,7 +8,7 @@
     <title>Kelas 1B Informatika</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body><!-- https://www.instagram.com/bicstwnyfive/ -->
+<body>
     <script src="assets/js/theme-toggle.js"></script>
     <!-- HEADER -->
     <header>
