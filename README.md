@@ -1,4 +1,3 @@
-# Berkaspentingkuliah
 # Portfolio – Amogus
 
 Selamat datang di portofolio sederhana saya! Portfolio ini dibuat sebagai bagian dari pendaftaran **Divisi Research and Development (R&D) HIMTIKA**. Saya masih dalam tahap belajar, terutama dalam web development dan pemrograman dasar, namun saya terus berusaha mengembangkan kemampuan melalui project sederhana.
