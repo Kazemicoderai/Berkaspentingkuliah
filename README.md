@@ -1,11 +1,10 @@
 # Berkaspentingkuliah
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kelas 1B Informatika</title>
+  Kelas 1B Informatika
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -27,7 +26,6 @@
         </div>
     </header>
     <!-- HERO SECTION -->
-    <script src="assets/js/theme-toggle.js"></script>
     <main>
         <section class="hero">
             <img src="assets/img/Foto Bareng/1.jpg" alt="Foto Kelas">
@@ -37,6 +35,7 @@
             </div>
         </section>
     </main>
+    <script src="assets/js/theme-toggle.js"></script>
     <!-- FOOTER -->
     <footer>
         <p>© 2025 Kelas 1B Informatika | Dibuat oleh Kelas 1B Informatika</p>    
