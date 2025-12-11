@@ -8,7 +8,8 @@
     <title>Kelas 1B Informatika</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body><!-- https://www.instagram.com/bicstwnyfive/ -->
+    <script src="assets/js/theme-toggle.js"></script>
     <!-- HEADER -->
     <header>
         <div class="header-container">
@@ -40,7 +41,5 @@
     <footer>
         <p>© 2025 Kelas 1B Informatika | Dibuat oleh Kelas 1B Informatika</p>    
     </footer>
-    <!-- https://www.instagram.com/bicstwnyfive/ -->
-    <script src="assets/js/theme-toggle.js"></script>
 </body>
 </html>
