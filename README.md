@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <script src="assets/js/theme-toggle.js"></script>
     <!-- HEADER -->
     <header>
         <div class="header-container">
@@ -28,6 +27,7 @@
         </div>
     </header>
     <!-- HERO SECTION -->
+    <script src="assets/js/theme-toggle.js"></script>
     <main>
         <section class="hero">
             <img src="assets/img/Foto Bareng/1.jpg" alt="Foto Kelas">
