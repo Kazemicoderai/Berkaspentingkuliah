@@ -1,44 +1,113 @@
 # Berkaspentingkuliah
+# Portfolio – Amogus
+
+Selamat datang di portofolio sederhana saya! Portfolio ini dibuat sebagai bagian dari pendaftaran **Divisi Research and Development (R&D) HIMTIKA**. Saya masih dalam tahap belajar, terutama dalam web development dan pemrograman dasar, namun saya terus berusaha mengembangkan kemampuan melalui project sederhana.
+
+---
+
+## 👨‍💻 Tentang Saya
+- **Nama:** Amogus
+- **Prodi:** Informatika
+- **Ketertarikan:** Web Development, Sistem Informasi sederhana, dan automation untuk pencatatan/progress.
+- **Skill Saat Ini:**
+  - HTML & CSS dasar
+  - JavaScript dasar
+  - C++ dasar
+  - Paham alur program (dibantu AI untuk generasi awal, tapi saya memahami logikanya)
+
+---
+
+## 🚀 Tujuan Saya Bergabung R&D
+- Mendapat pengalaman baru di dunia programming.
+- Meningkatkan kemampuan web development.
+- Belajar bekerja dalam tim dan mengerjakan project nyata.
+- Membiasakan diri dengan workflow developer (GitHub, dokumentasi, debugging).
+
+---
+
+## 📂 Project Sederhana
+Berikut merupakan beberapa project sederhana yang relevan dengan Divisi RnD.
+
+---
+
+### 1. **Simple Web – Sistem Pencatatan Progress**
+Project web HTML/CSS sederhana untuk mencatat progress kegiatan. Cocok untuk internal divisi atau pencatatan tugas.
+
+**Fitur:**
+- Input nama kegiatan
+- Input persentase progress
+- Tabel daftar progress
+
+**Demo Code (HTML/CSS/JS):**
+```
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  Kelas 1B Informatika
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Progress Tracker</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        input, button { padding: 8px; margin: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; }
+    </style>
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
-        <div class="header-container">
-            <div class="logo-container">
-                <a href="index.html"><img src="assets/img/nobglogo.png" alt="Logo Kelas"></a>
-                <h1><a href="index.html"> Kelas 1B Informatika</a></h1>
-            </div>
-            <nav>
-                <a href="index.html">Beranda</a>
-                <a href="anggota.html">Struktur</a>
-                <a href="galeri.html">Galeri</a>
-                <a href="story.html">Story</a>
-                <a href="member.html">Member Lainnya</a>
-                <button class="toggle-theme" onclick="toggleDarkMode()">🌙</button>
-            </nav>
-        </div>
-    </header>
-    <!-- HERO SECTION -->
-    <main>
-        <section class="hero">
-            <img src="assets/img/Foto Bareng/1.jpg" alt="Foto Kelas">
-            <div class="overlay">
-                <h2>Selamat Datang di Website Kelas 1B Informatika 🎓</h2>
-                <p>Website ini dibuat untuk mengenang dan memperkenalkan teman-teman sekelas.</p>
-            </div>
-        </section>
-    </main>
-    <script src="assets/js/theme-toggle.js"></script>
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 Kelas 1B Informatika | Dibuat oleh Kelas 1B Informatika</p>    
-    </footer>
+    <h2>Progress Tracker</h2>
+    <input type="text" id="task" placeholder="Nama kegiatan">
+    <input type="number" id="progress" placeholder="Progress (%)">
+    <button onclick="addData()">Tambah</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kegiatan</th>
+                <th>Progress</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        function addData(){
+            let task = document.getElementById('task').value;
+            let progress = document.getElementById('progress').value;
+            
+            let row = `<tr><td>${task}</td><td>${progress}%</td></tr>`;
+            document.getElementById('tableBody').innerHTML += row;
+        }
+    </script>
 </body>
 </html>
+```
+
+---
+
+### 2. **C++ Program – Sistem Kasir Sederhana**
+Program dasar untuk mencatat transaksi.
+```
+#include <iostream>
+using namespace std;
+
+int main(){
+    int harga, jumlah;
+    string nama;
+
+    cout << "Nama barang: "; cin >> nama;
+    cout << "Harga: "; cin >> harga;
+    cout << "Jumlah: "; cin >> jumlah;
+
+    cout << "Total: " << harga * jumlah;
+}
+```
+---
+## 🔗 Link GitHub
+Semua file, project, dan kode saya upload ke GitHub:
+
+👉 **https://github.com/your-username/portfolio-rnd**
+
+*(Ganti dengan link GitHub kamu)*
+
+---
+
+## 📌 Penutup
+Portofolio ini masih sederhana, namun saya berkomitmen untuk terus belajar dan tumbuh bersama Divisi R&D. Terima kasih telah melihat portofolio saya.
